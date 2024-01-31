@@ -4,49 +4,61 @@
     <meta charset="utf-8">
     <title>PFC tEAM - 游戏制谱团队</title>
     <style>
-        /* 添加彩色渐变背景样式 */
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #aaaaaa;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background: linear-gradient(to right, #ff0000,#ff7700,#ffee00,#00ff22,#00ffea,#0044ff,#d400ff);
-            color: #fff;
-            padding: 10px 0;
-            text-align: center;
-            border-top-left-radius: 10px;
-            border-top-right-radius: 10px;
-        }
-        nav ul {
-            list-style: none;
-            padding: 0;
-            text-align: center;
-        }
-        nav ul li {
-            display: inline;
-            margin: 0 10px;
-        }
-        main {
-            padding: 20px;
-            border-radius: 10px;
-            background-color: #fff;
-            margin: 20px;
-            opacity: 0;
-            transform: translateY(50px);
-            transition: opacity 1s ease-in-out, transform 1s ease-in-out;
-        }
-        section {
-            margin-bottom: 20px;
-        }
+    /* 添加彩色渐变背景样式 */
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #aaaaaa;
+        margin: 0;
+        padding: 0;
+    }
+    header {
+        background: linear-gradient(to right, #ff0000,#ff7700,#ffee00,#00ff22,#00ffea,#0044ff,#d400ff);
+        color: #fff;
+        padding: 10px 0;
+        text-align: center;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    nav ul {
+        list-style: none;
+        padding: 0;
+        text-align: center;
+    }
+    nav ul li {
+        display: inline;
+        margin: 0 10px;
+    }
+    main {
+        padding: 20px;
+        border-radius: 10px;
+        background-color: #fff;
+        margin: 20px;
+        opacity: 0;
+        transform: translateY(50px);
+        transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+    }
+    section {
+        margin-bottom: 20px;
+    }
 
-        a {
-            background: linear-gradient(to right, #ff0000,#ff7700,#ffee00,#00ff22,#00ffea,#0044ff,#d400ff);
-            border-radius: 10px;
-            color: #000;
-            text-decoration: underline;
+    a {
+        background: linear-gradient(to right, #ff0000,#ff7700,#ffee00,#00ff22,#00ffea,#0044ff,#d400ff);
+        border-radius: 10px;
+        color: #000;
+        text-decoration: underline;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* 媒体查询 */
+    @media only screen and (max-width: 768px) {
+        main {
+            margin: 10px;
         }
+    }
+</style>
         </style>
 </head>
 <body>
